@@ -11,7 +11,7 @@ body {
   background: url(/images/lightpaperfibers.png) repeat center center fixed;
 } 
 
-h2, h3, p, a {
+h1, h2, h3, p, a {
   font-family: 'Josefin Sans', sans-serif;
 }
 
