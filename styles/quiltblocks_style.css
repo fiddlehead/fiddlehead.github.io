@@ -9,7 +9,7 @@ dark grey = #c9c9c9
 body {
   font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: url(/images/lightpaperfibers.png) repeat center center fixed;
-} 
+}
 
 h1, h2, h3, p, a {
   font-family: 'Josefin Sans', sans-serif;
@@ -53,8 +53,8 @@ a:hover {
 /* PATTERN CHOICES */
 .patternchoices {
   width: 100%;
-  
-  background-color: rgba(177, 194, 190, .4); 
+
+  background-color: rgba(177, 194, 190, .4);
   padding: 20px 10px 0 10px;
   margin-left: auto;
   margin-right: auto;
@@ -86,21 +86,20 @@ a:hover {
 
 .sewingicons {
   margin-top: -10px;
-  padding-top: 20px;
+  margin: -10px auto 0px auto;
+  padding: 15px;
   background-color: rgba(177, 194, 190, .4);
   color: #fff;
 }
-.sewingicons ul {
+ul.sewingicons  {
   list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
 
-.sewingicons li {
-  display: inline;
-  padding: 0 15px 0 15px;
+ul.sewingicons li {
+  display: inline-block;
+  padding: 0 55px 0 55px;
 }
-
 
 figcaption {
   text-align: center;
