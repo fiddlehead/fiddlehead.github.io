@@ -2,7 +2,7 @@ var selected_svg =
 
 $(document).ready(function(){
     $(".patternchoices img").click(function(){
-        $(".patternchoices img").css( "border", ".75px solid black" );
+        $(".patternchoice img").css( "border", ".75px solid black" );
         $(this).css( "border", "4px solid #512563" );
         selected_svg = this.id;
         var src = $(this).attr('src');
@@ -69,33 +69,3 @@ $(".colorDbutton").click(function(){
     var target_img = document.getElementById("quiltblock-img");
     setImageToSVG(target_img,base);
 });
-
-// make color wheel
-/*
-$(document).ready(function () {
-    $("#jqxColorPicker").jqxColorPicker({ width: 350, height: 350 });
-});
-
-$("#jqxColorPicker").jqxColorPicker(‘setColor’, '#419ba0');
-
-var color = $("#jqxColorPicker").jqxColorPicker(‘getColor’);
-
-*/
-/*basis: http://jsfiddle.net/jqwidgets/cHD9a/ but uses http://www.jqwidgets.com/ framework
-
-$("#colorPicker").jqxColorPicker({
-    width: 450,
-    height: 450
-});
-$("#jqxButton").jqxButton({
-    height: '30px',
-    width: '200px'
-});
-// part i don't want
-$('#jqxButton').on('click', function () {
-  var color = $("#colorPicker").jqxColorPicker('getColor');
-    var hex = color.hex;
-    var rgb = color.r + "," + color.g + "," + color.b;
-    alert("Hex: #" + hex + ", RGB: " + rgb);
-});
-*/
