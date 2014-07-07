@@ -15,15 +15,16 @@ h2, h3, p, a {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-h1 {
-  color: #512563;
-  font-size: 4em;
-  text-align: center;
+h1, h2, h3 {
+   color: #512563;
+   text-align: center;
 }
 
-h2, h3 {
-  color: #512563;
-  text-align: center;
+h1 {
+  font-size: 4em;
+}
+
+h2 {
   font-size: 3em;
 }
 
@@ -52,7 +53,6 @@ a:hover {
 /* PATTERN CHOICES */
 .patternchoices {
   width: 100%;
-
   background-color: rgba(177, 194, 190, .4);
   padding: 20px 10px 0 10px;
   margin-left: auto;
@@ -85,7 +85,7 @@ a:hover {
 
 .sewingicons {
   margin-top: -10px;
-  padding-top: 20px;
+  padding: 20px 0;
   background-color: rgba(177, 194, 190, .4);
   color: #fff;
 }
@@ -99,7 +99,6 @@ a:hover {
   display: inline;
   padding: 0 15px 0 15px;
 }
-
 
 figcaption {
   text-align: center;
