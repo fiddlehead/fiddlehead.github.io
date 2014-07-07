@@ -2,7 +2,7 @@ var selected_svg =
 
 $(document).ready(function(){
     $(".patternchoices img").click(function(){
-        $(".patternchoice img").css( "border", ".75px solid black" );
+        $(".patternchoices img").css( "border", ".75px solid black" );
         $(this).css( "border", "4px solid #512563" );
         selected_svg = this.id;
         var src = $(this).attr('src');
