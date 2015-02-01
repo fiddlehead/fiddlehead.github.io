@@ -58,72 +58,45 @@ a:hover {
 /* PATTERN CHOICES */
 .patternchoices {
   width: 100%;
-  background-color: rgba(177, 194, 190, .4);
-  padding: 20px 10px 0 10px;
-  margin-left: auto;
-  margin-right: auto;
+  border-top: 20px solid rgba(177, 194, 190, .4);
+  /*padding-top: 20px;*/
 }
-
-.patternchoices h2,
-.patternchoices h3 {
+.patternchoices ul {
+  margin-top: 30px;
   text-align: center;
-  color: #512563;
 }
-
-.patternchoices ul. {
-  list-style-type: none;
-  margin-top: 10px;
-  margin-left: -50px;
-  margin-right: -50px;
-}
-
 .patternchoices li {
   display: inline-block;
-}
+    list-style-type: none;
 
+}
 .patternchoices img {
-  margin-right: 22px;
-  margin-left: 22px;
   border: 1.5px solid #000;
   background: white;
 }
+.patternLabel {
+padding-bottom: 20px;
 
+}
+/* SEWING ICONS & STEP 1 */
 .sewingicons {
-  margin-top: -10px;
-  padding: 20px 0;
   background-color: rgba(177, 194, 190, .4);
   color: #fff;
+  padding: 30px 0 15px 0;
 }
 .sewingicons ul {
   list-style-type: none;
   margin-left: auto;
   margin-right: auto;
 }
-
-.sewingicons li {
-  display: inline;
-  padding: 0 15px 0 15px;
-}
-
-figcaption {
-  text-align: center;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-
-/* SEWING ICONS */
 .sewingicons li {
   display: inline-block;
 }
-
 .sewingicons img {
-  padding: 10px;
-  margin: 0 55px 20px 55px;
+  margin: 20px 55px 0 55px;
 }
-
 #machine {
-  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 /* STREAM */
