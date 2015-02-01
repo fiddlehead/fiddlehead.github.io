@@ -189,10 +189,6 @@ figcaption {
   margin-top: 60px;
 }
 
-/*#quiltblock img {
-  align: center;
-}*/
-
 .reset {
   padding: 20px;
   margin: 0 auto;
@@ -217,4 +213,16 @@ footer {
   position: relative;
   min-height: 10%;
   float: left;
+}
+
+@media all and (max-width: 70em) {
+  .sewingicons img {
+  display: none;
+}
+.patternchoices img {
+
+}
+.patternchoices h2 {
+  margin: 0 auto;
+}
 }

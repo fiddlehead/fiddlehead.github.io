@@ -1,9 +1,8 @@
 var selected_svg =
 
-$(document).ready(function(){
-    $(".patternchoices img").click(function(){
-        $(".patternchoices img").css( "border", ".75px solid black" );
-        $(this).css( "border", "4px solid #512563" );
+$(document).ready(function () {$(".patternchoices img").click(function () {
+        $(".patternchoices img").css("border", ".75px solid black" );
+        $(this).css("border", "4px solid #512563" );
         selected_svg = this.id;
         var src = $(this).attr('src');
         $("#quiltblock img").attr("src", src );
@@ -13,13 +12,12 @@ $(document).ready(function(){
         $(".colorD").attr('fill', '#b3b3b3');
     })
 });
-
-var setImageToSVG = function(img,svg){
+var setImageToSVG = function (img,svg) {
   var xml = (new XMLSerializer()).serializeToString(svg);
   img.src = "data:image/svg+xml;charset=utf-8,"+xml;
 }
 
-$(".colorAbutton").click(function(){
+$(".colorAbutton").click(function () {
       var red = Math.floor(Math.random() * 255);
       var green = Math.floor(Math.random() * 255);
       var blue = Math.floor(Math.random() * 255);
@@ -33,7 +31,7 @@ $(".colorAbutton").click(function(){
     setImageToSVG(target_img,base);
 });
 
-$(".colorBbutton").click(function(){
+$(".colorBbutton").click(function () {
       var red = Math.floor(Math.random() * 255);
       var green = Math.floor(Math.random() * 255);
       var blue = Math.floor(Math.random() * 255);
@@ -45,8 +43,7 @@ $(".colorBbutton").click(function(){
     setImageToSVG(target_img,base);
 });
 
-
-$(".colorCbutton").click(function(){
+$(".colorCbutton").click(function () {
       var red = Math.floor(Math.random() * 255);
       var green = Math.floor(Math.random() * 255);
       var blue = Math.floor(Math.random() * 255);
@@ -58,7 +55,7 @@ $(".colorCbutton").click(function(){
     setImageToSVG(target_img,base);
 });
 
-$(".colorDbutton").click(function(){
+$(".colorDbutton").click(function () {
       var red = Math.floor(Math.random() * 255);
       var green = Math.floor(Math.random() * 255);
       var blue = Math.floor(Math.random() * 255);
