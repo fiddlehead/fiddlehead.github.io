@@ -107,18 +107,18 @@ padding-bottom: 20px;
 
 /* CHOOSE A COLOR */
 
-.colorchoices {
+#colorchoices {
   margin-left: 40px;
 }
 
-.colorchoices h2 {
+#colorchoices h2 {
   text-align: left;
 }
 
-.colorchoices p {
+#colorchoices p {
   margin-top: 20px;
 }
-.colorchoices button {
+#colorchoices button {
   display: inline-block;
   width: 150px;
   margin: 10px;

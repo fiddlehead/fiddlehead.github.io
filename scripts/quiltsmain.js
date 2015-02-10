@@ -55,14 +55,18 @@ $(".colorCbutton").click(function () {
     setImageToSVG(target_img,base);
 });
 
+
+
 $(".colorDbutton").click(function () {
-      var red = Math.floor(Math.random() * 255);
-      var green = Math.floor(Math.random() * 255);
-      var blue = Math.floor(Math.random() * 255);
-      var randomRGBA = 'rgba('+red+','+green+','+blue+',1)';
+    var red = Math.floor(Math.random() * 255);
+    var green = Math.floor(Math.random() * 255);
+    var blue = Math.floor(Math.random() * 255);
+    var randomRGBA = 'rgba('+red+','+green+','+blue+',1)';
     $(".colorD").attr('fill', randomRGBA);
     $(".colorDbutton").css('background-color', randomRGBA);
     var base = document.getElementById(selected_svg+"base");
     var target_img = document.getElementById("quiltblock-img");
     setImageToSVG(target_img,base);
 });
+
+
