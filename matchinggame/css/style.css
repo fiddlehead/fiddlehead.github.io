@@ -1,0 +1,28 @@
+.body {
+  background: #eee;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+.board {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+}
+.row1,.row2,.row3,.row4 {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 15px;
+}
+.flip {
+  position:relative;
+  -webkit-transform-style:preserve-3d;
+  -moz-transform-style:preserve-3d
+}
+.tile {
+  border: 1px solid #000;
+  /*background: url("images/cupcake3.png") no-repeat;*/
+  height: 95px;
+  width: 95px;
+}
