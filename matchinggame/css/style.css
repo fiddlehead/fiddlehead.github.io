@@ -3,17 +3,18 @@
   font-family: Arial, sans-serif;
   width: 100%;
 }
+.container {
+  padding-bottom: 90px;
+}
 .board {
   position: absolute;
-  height: 500px;
-  width: 500px;
 }
-.row1,.row2,.row3,.row4 {
-  height: 100px;
-  width: 100px;
+.row1,.row2,.row3,.row4, .row5 {
+  height: 150px;
+  width: 150px;
   display: inline-block;
   position: relative;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
 }
 .flip {
   position:relative;
@@ -21,8 +22,16 @@
   -moz-transform-style:preserve-3d
 }
 .tile {
-  border: 1px solid #000;
-  /*background: url("images/cupcake3.png") no-repeat;*/
-  height: 95px;
-  width: 95px;
+  height: 150px;
+  width: 150px;
+}
+.top {
+  background-color: #85c226;
+}
+.top:nth-child(odd) {
+  background-color: #254808;
+}
+footer {
+  height: 90px;
+  background-color: #e5e5e5;
 }
