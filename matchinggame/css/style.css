@@ -28,9 +28,6 @@ ul.tile li {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-/*ul.tile li:nth-child(odd) {
-  background-color: #419ba0;
-}*/
 ul.tile li img {
   max-width: 100%;
   height: auto;
